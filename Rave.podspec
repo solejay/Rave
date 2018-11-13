@@ -32,11 +32,14 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'Rave/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'Rave' => ['Rave/Assets/*.png']
-  # }
-
+  s.resource_bundles = {
+      'Rave' => ['Rave/Assets/*.png','Rave/Assets/*.storyboard']
+  }
+  
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
+  s.dependency 'Alamofire'
+  s.dependency 'MaterialComponents/Snackbar'
+  s.dependency 'lottie-ios'
+  s.dependency 'IQKeyboardManagerSwift'
 end

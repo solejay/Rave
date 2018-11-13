@@ -1,0 +1,16 @@
+PODS:
+  - Rave (0.1.0)
+
+DEPENDENCIES:
+  - Rave (from `../`)
+
+EXTERNAL SOURCES:
+  Rave:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Rave: 754864b6ef0d49b665dc871c8ec3b9b4ccc8dc0c
+
+PODFILE CHECKSUM: f370e7e286d8026d763febb8d80759f9dbd4bffc
+
+COCOAPODS: 1.6.0.beta.1

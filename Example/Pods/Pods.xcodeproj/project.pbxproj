@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		405F35F7BB64DC717CA5AA6664DAF442 /* Rave-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E490FE4EF9F67AA93E63F42ED4EC8AA1 /* Rave-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		590A0B508D11358E0E1657A5C65FA9ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		61AC288452B12C0B36BDD53DE934BCCE /* Pods-Rave_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A8D5618FDCD8BD2A651FF9839F8264 /* Pods-Rave_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		786D631E219B0D560049C0AA /* SaveCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D6301219B0D560049C0AA /* SaveCardViewController.swift */; };
+		786D631F219B0D560049C0AA /* RavePayWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D6302219B0D560049C0AA /* RavePayWebViewController.swift */; };
+		786D6320219B0D560049C0AA /* RavePayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D6303219B0D560049C0AA /* RavePayViewController.swift */; };
+		786D6321219B0D560049C0AA /* RavePayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D6305219B0D560049C0AA /* RavePayHeaderView.swift */; };
+		786D6322219B0D560049C0AA /* RavePayNavTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D6306219B0D560049C0AA /* RavePayNavTitle.swift */; };
+		786D6323219B0D560049C0AA /* SaveCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D6307219B0D560049C0AA /* SaveCardCell.swift */; };
+		786D6324219B0D560049C0AA /* VSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D6308219B0D560049C0AA /* VSTextField.swift */; };
+		786D6325219B0D560049C0AA /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D630A219B0D560049C0AA /* Bank.swift */; };
+		786D6326219B0D560049C0AA /* SavedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D630B219B0D560049C0AA /* SavedCard.swift */; };
+		786D6327219B0D560049C0AA /* RaveConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D630D219B0D560049C0AA /* RaveConfig.swift */; };
+		786D6328219B0D560049C0AA /* RaveURLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D630F219B0D560049C0AA /* RaveURLHelper.swift */; };
+		786D6329219B0D560049C0AA /* TripleDES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D6310219B0D560049C0AA /* TripleDES.swift */; };
+		786D632A219B0D560049C0AA /* RaveConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D6311219B0D560049C0AA /* RaveConstants.swift */; };
+		786D632B219B0D560049C0AA /* Loader_WY.json in Resources */ = {isa = PBXBuildFile; fileRef = 786D6312219B0D560049C0AA /* Loader_WY.json */; };
+		786D632C219B0D560049C0AA /* Loader_YW.json in Resources */ = {isa = PBXBuildFile; fileRef = 786D6313219B0D560049C0AA /* Loader_YW.json */; };
+		786D632D219B0D560049C0AA /* Loader_YB.json in Resources */ = {isa = PBXBuildFile; fileRef = 786D6314219B0D560049C0AA /* Loader_YB.json */; };
+		786D632E219B0D560049C0AA /* LoadingHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D6315219B0D560049C0AA /* LoadingHUD.swift */; };
+		786D632F219B0D560049C0AA /* RaveExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D6316219B0D560049C0AA /* RaveExtension.swift */; };
+		786D6330219B0D560049C0AA /* RavePayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D6318219B0D560049C0AA /* RavePayService.swift */; };
+		786D6331219B0D560049C0AA /* RaveMpesaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D631A219B0D560049C0AA /* RaveMpesaClient.swift */; };
+		786D6332219B0D560049C0AA /* RaveMobileMoneyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D631B219B0D560049C0AA /* RaveMobileMoneyClient.swift */; };
+		786D6333219B0D560049C0AA /* RaveAccountClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D631C219B0D560049C0AA /* RaveAccountClient.swift */; };
+		786D6334219B0D560049C0AA /* RaveCardClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D631D219B0D560049C0AA /* RaveCardClient.swift */; };
+		78E92C9F7B4529D8290551E0BF641B9E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791D67F9F1CCB79D5D568DD65CD8A38E /* ReplaceMe.swift */; };
+		813AD2669DC06FE98110143E375B5449 /* Rave-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C154D5108CB6E059A4CFF7B3130C1580 /* Rave-dummy.m */; };
+		94F972564F1593B8D396A8718BB03376 /* Pods-Rave_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B40B913923F11C685B64604854802D /* Pods-Rave_Tests-dummy.m */; };
+		C7BAC49349C2D9F18D850923FCE6E5E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		951853F403DD580079354D9DC3625821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18932C0410F85AE6F5C7F7D505574434;
+			remoteInfo = Rave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12EC3FA86E5912D7EF8A972D63B6AAC6 /* Rave.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Rave.xcconfig; sourceTree = "<group>"; };
+		26B40B913923F11C685B64604854802D /* Pods-Rave_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rave_Tests-dummy.m"; sourceTree = "<group>"; };
+		2EAB3E0DA59669CFF9744E8A086A8AAE /* Pods-Rave_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rave_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		38C215BC0EA168AA4D508A4052AA0FC7 /* Rave-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Rave-Info.plist"; sourceTree = "<group>"; };
+		3FD44EBF2DDE5C4DCD2DA07BF6040F48 /* Pods_Rave_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rave_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		481708FB54EB9A55F29739BB0703FF16 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5591AC50FF8BB72617DBE3BE286C4062 /* Rave.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rave.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D4A1314A0587623B9222D10D808A435 /* Pods-Rave_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rave_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		65A8D5618FDCD8BD2A651FF9839F8264 /* Pods-Rave_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rave_Tests-umbrella.h"; sourceTree = "<group>"; };
+		678E89DDA1E020700D6AAEA16DEA028E /* Pods-Rave_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rave_Tests-Info.plist"; sourceTree = "<group>"; };
+		6F3F9BC690E4F6839394F4D7ACAEF845 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		786D6301219B0D560049C0AA /* SaveCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveCardViewController.swift; sourceTree = "<group>"; };
+		786D6302219B0D560049C0AA /* RavePayWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RavePayWebViewController.swift; sourceTree = "<group>"; };
+		786D6303219B0D560049C0AA /* RavePayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RavePayViewController.swift; sourceTree = "<group>"; };
+		786D6305219B0D560049C0AA /* RavePayHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RavePayHeaderView.swift; sourceTree = "<group>"; };
+		786D6306219B0D560049C0AA /* RavePayNavTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RavePayNavTitle.swift; sourceTree = "<group>"; };
+		786D6307219B0D560049C0AA /* SaveCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveCardCell.swift; sourceTree = "<group>"; };
+		786D6308219B0D560049C0AA /* VSTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSTextField.swift; sourceTree = "<group>"; };
+		786D630A219B0D560049C0AA /* Bank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		786D630B219B0D560049C0AA /* SavedCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedCard.swift; sourceTree = "<group>"; };
+		786D630D219B0D560049C0AA /* RaveConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveConfig.swift; sourceTree = "<group>"; };
+		786D630F219B0D560049C0AA /* RaveURLHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveURLHelper.swift; sourceTree = "<group>"; };
+		786D6310219B0D560049C0AA /* TripleDES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripleDES.swift; sourceTree = "<group>"; };
+		786D6311219B0D560049C0AA /* RaveConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveConstants.swift; sourceTree = "<group>"; };
+		786D6312219B0D560049C0AA /* Loader_WY.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loader_WY.json; sourceTree = "<group>"; };
+		786D6313219B0D560049C0AA /* Loader_YW.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loader_YW.json; sourceTree = "<group>"; };
+		786D6314219B0D560049C0AA /* Loader_YB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loader_YB.json; sourceTree = "<group>"; };
+		786D6315219B0D560049C0AA /* LoadingHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingHUD.swift; sourceTree = "<group>"; };
+		786D6316219B0D560049C0AA /* RaveExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveExtension.swift; sourceTree = "<group>"; };
+		786D6318219B0D560049C0AA /* RavePayService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RavePayService.swift; sourceTree = "<group>"; };
+		786D631A219B0D560049C0AA /* RaveMpesaClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveMpesaClient.swift; sourceTree = "<group>"; };
+		786D631B219B0D560049C0AA /* RaveMobileMoneyClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveMobileMoneyClient.swift; sourceTree = "<group>"; };
+		786D631C219B0D560049C0AA /* RaveAccountClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveAccountClient.swift; sourceTree = "<group>"; };
+		786D631D219B0D560049C0AA /* RaveCardClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaveCardClient.swift; sourceTree = "<group>"; };
+		791D67F9F1CCB79D5D568DD65CD8A38E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Rave/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		79F6080879D97C77C46AF0754E80860B /* Rave.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Rave.modulemap; sourceTree = "<group>"; };
+		7DE355CB1C3DB5F7C7D7C2E816E50C1B /* Pods-Rave_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rave_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		868875D4A18DBA9E92873667B2E49374 /* Rave.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Rave.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AB4AA245B030C8787B91E4F98A91DC8 /* Pods-Rave_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rave_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A46717D52D0E7DBF3222D318028B8223 /* Pods-Rave_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rave_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C154D5108CB6E059A4CFF7B3130C1580 /* Rave-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Rave-dummy.m"; sourceTree = "<group>"; };
+		DEC6285F4CE7929BECE96DA141F99396 /* Pods-Rave_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rave_Tests.modulemap"; sourceTree = "<group>"; };
+		E490FE4EF9F67AA93E63F42ED4EC8AA1 /* Rave-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Rave-umbrella.h"; sourceTree = "<group>"; };
+		E8751C4EA18B9189B3EA02E2969B1F9C /* Rave-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Rave-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E910207E1334C44FC56859F9EE1920F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590A0B508D11358E0E1657A5C65FA9ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41BD61C5BAF08290500B1A1FEAE2ECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BAC49349C2D9F18D850923FCE6E5E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02913311EC9C36D79A8BBAAE64D7FA98 /* Pods-Rave_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DEC6285F4CE7929BECE96DA141F99396 /* Pods-Rave_Tests.modulemap */,
+				7DE355CB1C3DB5F7C7D7C2E816E50C1B /* Pods-Rave_Tests-acknowledgements.markdown */,
+				5D4A1314A0587623B9222D10D808A435 /* Pods-Rave_Tests-acknowledgements.plist */,
+				26B40B913923F11C685B64604854802D /* Pods-Rave_Tests-dummy.m */,
+				9AB4AA245B030C8787B91E4F98A91DC8 /* Pods-Rave_Tests-frameworks.sh */,
+				678E89DDA1E020700D6AAEA16DEA028E /* Pods-Rave_Tests-Info.plist */,
+				65A8D5618FDCD8BD2A651FF9839F8264 /* Pods-Rave_Tests-umbrella.h */,
+				2EAB3E0DA59669CFF9744E8A086A8AAE /* Pods-Rave_Tests.debug.xcconfig */,
+				A46717D52D0E7DBF3222D318028B8223 /* Pods-Rave_Tests.release.xcconfig */,
+			);
+			name = "Pods-Rave_Tests";
+			path = "Target Support Files/Pods-Rave_Tests";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		622C84912A0E5734896DEC48D27EFF8A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8227A8DC455F70C0F98681A3F6D7183B /* Rave */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		773F271D4353B674EEB6DD4F5D7321F5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02913311EC9C36D79A8BBAAE64D7FA98 /* Pods-Rave_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		786D62FF219B0D560049C0AA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				786D6300219B0D560049C0AA /* Controller */,
+				786D6304219B0D560049C0AA /* View */,
+			);
+			name = UI;
+			path = Rave/Classes/UI;
+			sourceTree = "<group>";
+		};
+		786D6300219B0D560049C0AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				786D6301219B0D560049C0AA /* SaveCardViewController.swift */,
+				786D6302219B0D560049C0AA /* RavePayWebViewController.swift */,
+				786D6303219B0D560049C0AA /* RavePayViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		786D6304219B0D560049C0AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				786D6305219B0D560049C0AA /* RavePayHeaderView.swift */,
+				786D6306219B0D560049C0AA /* RavePayNavTitle.swift */,
+				786D6307219B0D560049C0AA /* SaveCardCell.swift */,
+				786D6308219B0D560049C0AA /* VSTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		786D6309219B0D560049C0AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				786D630A219B0D560049C0AA /* Bank.swift */,
+				786D630B219B0D560049C0AA /* SavedCard.swift */,
+			);
+			name = Model;
+			path = Rave/Classes/Model;
+			sourceTree = "<group>";
+		};
+		786D630C219B0D560049C0AA /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				786D630D219B0D560049C0AA /* RaveConfig.swift */,
+			);
+			name = Config;
+			path = Rave/Classes/Config;
+			sourceTree = "<group>";
+		};
+		786D630E219B0D560049C0AA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				786D630F219B0D560049C0AA /* RaveURLHelper.swift */,
+				786D6310219B0D560049C0AA /* TripleDES.swift */,
+				786D6311219B0D560049C0AA /* RaveConstants.swift */,
+				786D6312219B0D560049C0AA /* Loader_WY.json */,
+				786D6313219B0D560049C0AA /* Loader_YW.json */,
+				786D6314219B0D560049C0AA /* Loader_YB.json */,
+				786D6315219B0D560049C0AA /* LoadingHUD.swift */,
+				786D6316219B0D560049C0AA /* RaveExtension.swift */,
+			);
+			name = Utils;
+			path = Rave/Classes/Utils;
+			sourceTree = "<group>";
+		};
+		786D6317219B0D560049C0AA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				786D6318219B0D560049C0AA /* RavePayService.swift */,
+			);
+			name = Service;
+			path = Rave/Classes/Service;
+			sourceTree = "<group>";
+		};
+		786D6319219B0D560049C0AA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				786D631A219B0D560049C0AA /* RaveMpesaClient.swift */,
+				786D631B219B0D560049C0AA /* RaveMobileMoneyClient.swift */,
+				786D631C219B0D560049C0AA /* RaveAccountClient.swift */,
+				786D631D219B0D560049C0AA /* RaveCardClient.swift */,
+			);
+			name = App;
+			path = Rave/Classes/App;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				622C84912A0E5734896DEC48D27EFF8A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D55023FF86E8A2D576B06EA61221DA95 /* Products */,
+				773F271D4353B674EEB6DD4F5D7321F5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8227A8DC455F70C0F98681A3F6D7183B /* Rave */ = {
+			isa = PBXGroup;
+			children = (
+				786D6319219B0D560049C0AA /* App */,
+				786D630C219B0D560049C0AA /* Config */,
+				786D6309219B0D560049C0AA /* Model */,
+				786D6317219B0D560049C0AA /* Service */,
+				786D62FF219B0D560049C0AA /* UI */,
+				786D630E219B0D560049C0AA /* Utils */,
+				791D67F9F1CCB79D5D568DD65CD8A38E /* ReplaceMe.swift */,
+				AEE21EFB7842F287F255D97974DE74A0 /* Pod */,
+				84577BCAA5C90E190CA9C89F014F30F1 /* Support Files */,
+			);
+			name = Rave;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		84577BCAA5C90E190CA9C89F014F30F1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79F6080879D97C77C46AF0754E80860B /* Rave.modulemap */,
+				12EC3FA86E5912D7EF8A972D63B6AAC6 /* Rave.xcconfig */,
+				C154D5108CB6E059A4CFF7B3130C1580 /* Rave-dummy.m */,
+				38C215BC0EA168AA4D508A4052AA0FC7 /* Rave-Info.plist */,
+				E8751C4EA18B9189B3EA02E2969B1F9C /* Rave-prefix.pch */,
+				E490FE4EF9F67AA93E63F42ED4EC8AA1 /* Rave-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Rave";
+			sourceTree = "<group>";
+		};
+		AEE21EFB7842F287F255D97974DE74A0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6F3F9BC690E4F6839394F4D7ACAEF845 /* LICENSE */,
+				868875D4A18DBA9E92873667B2E49374 /* Rave.podspec */,
+				481708FB54EB9A55F29739BB0703FF16 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D55023FF86E8A2D576B06EA61221DA95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FD44EBF2DDE5C4DCD2DA07BF6040F48 /* Pods_Rave_Tests.framework */,
+				5591AC50FF8BB72617DBE3BE286C4062 /* Rave.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16AE8D16B512EF123446B0C11FFABB82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61AC288452B12C0B36BDD53DE934BCCE /* Pods-Rave_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A716F9AF97EBFB18DF2EC8F342395D4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405F35F7BB64DC717CA5AA6664DAF442 /* Rave-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18932C0410F85AE6F5C7F7D505574434 /* Rave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE002E66457E0B17D6028E37820647B /* Build configuration list for PBXNativeTarget "Rave" */;
+			buildPhases = (
+				A716F9AF97EBFB18DF2EC8F342395D4E /* Headers */,
+				351FC4593B17D652D339AD575E904B68 /* Sources */,
+				B41BD61C5BAF08290500B1A1FEAE2ECD /* Frameworks */,
+				06BC51D424113F7D3DB01B8A47AACD5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rave;
+			productName = Rave;
+			productReference = 5591AC50FF8BB72617DBE3BE286C4062 /* Rave.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		412E172E944504C8D404CF3897C6F575 /* Pods-Rave_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F581FCFE4E8829B9D4CB258320CD0EC3 /* Build configuration list for PBXNativeTarget "Pods-Rave_Tests" */;
+			buildPhases = (
+				16AE8D16B512EF123446B0C11FFABB82 /* Headers */,
+				F6A73396C4E978071E5B23598D9A7E7E /* Sources */,
+				6E910207E1334C44FC56859F9EE1920F /* Frameworks */,
+				C488F17CE225DC8A898223DF01C6D4E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3F59223FFED80BBE90BD4AD287D4953 /* PBXTargetDependency */,
+			);
+			name = "Pods-Rave_Tests";
+			productName = "Pods-Rave_Tests";
+			productReference = 3FD44EBF2DDE5C4DCD2DA07BF6040F48 /* Pods_Rave_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D55023FF86E8A2D576B06EA61221DA95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				412E172E944504C8D404CF3897C6F575 /* Pods-Rave_Tests */,
+				18932C0410F85AE6F5C7F7D505574434 /* Rave */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06BC51D424113F7D3DB01B8A47AACD5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786D632C219B0D560049C0AA /* Loader_YW.json in Resources */,
+				786D632B219B0D560049C0AA /* Loader_WY.json in Resources */,
+				786D632D219B0D560049C0AA /* Loader_YB.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C488F17CE225DC8A898223DF01C6D4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		351FC4593B17D652D339AD575E904B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813AD2669DC06FE98110143E375B5449 /* Rave-dummy.m in Sources */,
+				786D6324219B0D560049C0AA /* VSTextField.swift in Sources */,
+				786D6328219B0D560049C0AA /* RaveURLHelper.swift in Sources */,
+				786D6320219B0D560049C0AA /* RavePayViewController.swift in Sources */,
+				786D6327219B0D560049C0AA /* RaveConfig.swift in Sources */,
+				786D6331219B0D560049C0AA /* RaveMpesaClient.swift in Sources */,
+				786D632F219B0D560049C0AA /* RaveExtension.swift in Sources */,
+				786D6332219B0D560049C0AA /* RaveMobileMoneyClient.swift in Sources */,
+				786D6321219B0D560049C0AA /* RavePayHeaderView.swift in Sources */,
+				786D6322219B0D560049C0AA /* RavePayNavTitle.swift in Sources */,
+				786D6330219B0D560049C0AA /* RavePayService.swift in Sources */,
+				786D631E219B0D560049C0AA /* SaveCardViewController.swift in Sources */,
+				786D6334219B0D560049C0AA /* RaveCardClient.swift in Sources */,
+				786D6333219B0D560049C0AA /* RaveAccountClient.swift in Sources */,
+				786D632A219B0D560049C0AA /* RaveConstants.swift in Sources */,
+				786D631F219B0D560049C0AA /* RavePayWebViewController.swift in Sources */,
+				786D632E219B0D560049C0AA /* LoadingHUD.swift in Sources */,
+				786D6326219B0D560049C0AA /* SavedCard.swift in Sources */,
+				786D6329219B0D560049C0AA /* TripleDES.swift in Sources */,
+				786D6325219B0D560049C0AA /* Bank.swift in Sources */,
+				786D6323219B0D560049C0AA /* SaveCardCell.swift in Sources */,
+				78E92C9F7B4529D8290551E0BF641B9E /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A73396C4E978071E5B23598D9A7E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F972564F1593B8D396A8718BB03376 /* Pods-Rave_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3F59223FFED80BBE90BD4AD287D4953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Rave;
+			target = 18932C0410F85AE6F5C7F7D505574434 /* Rave */;
+			targetProxy = 951853F403DD580079354D9DC3625821 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5F38B8F4B84EBB9ABE1C79253CA3F669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12EC3FA86E5912D7EF8A972D63B6AAC6 /* Rave.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Rave/Rave-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Rave/Rave-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Rave/Rave.modulemap";
+				PRODUCT_MODULE_NAME = Rave;
+				PRODUCT_NAME = Rave;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F75DD0AFC5A636C700A453C887EE3A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12EC3FA86E5912D7EF8A972D63B6AAC6 /* Rave.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Rave/Rave-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Rave/Rave-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Rave/Rave.modulemap";
+				PRODUCT_MODULE_NAME = Rave;
+				PRODUCT_NAME = Rave;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		757CCD7D706BC79B0EE5D765C66BD39F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A46717D52D0E7DBF3222D318028B8223 /* Pods-Rave_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rave_Tests/Pods-Rave_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rave_Tests/Pods-Rave_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F400F7DB5FF65F004BC23304CE9466FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EAB3E0DA59669CFF9744E8A086A8AAE /* Pods-Rave_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rave_Tests/Pods-Rave_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rave_Tests/Pods-Rave_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE002E66457E0B17D6028E37820647B /* Build configuration list for PBXNativeTarget "Rave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F75DD0AFC5A636C700A453C887EE3A1 /* Debug */,
+				5F38B8F4B84EBB9ABE1C79253CA3F669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F581FCFE4E8829B9D4CB258320CD0EC3 /* Build configuration list for PBXNativeTarget "Pods-Rave_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F400F7DB5FF65F004BC23304CE9466FE /* Debug */,
+				757CCD7D706BC79B0EE5D765C66BD39F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
