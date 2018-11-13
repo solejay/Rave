@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Rave_Tests' do
+  pod 'Rave', :path => '../'
+  
+  
+end
